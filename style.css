@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #011111;
+  display: flex;
+  color: white;
+  position: fixed;
+}
+.nav-content {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 8px;
+}
+.nav-logo {
+  height: 45px;
+  width: 150px;
+  background-image: url("Amazonsite/images.png");
+  background-size: cover;
+}
+.nav-logo:hover {
+  border: 1px solid white;
+}
+.search {
+  height: 40px;
+  width: 615px;
+  display: flex;
+  background-color: #ffffff;
+  justify-content: space-between;
+  border-radius: 3px;
+}
+.search-box1 {
+  height: 40px;
+  width: 40px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(213, 213, 213);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.search-box2 {
+  height: 40px;
+  width: 508px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.search-box3 {
+  height: 40px;
+  width: 45px;
+  background-color: rgb(249, 200, 110);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.content {
+  display: flex;
+}
+.content:hover {
+  border: 1px solid white;
+}
+.material-symbols-outlined:hover {
+  border: 1px solid white;
+}
+.box1-list:hover {
+  border: 1px solid white;
+}
+.box2-list:hover {
+  border: 1px solid white;
+}
+/*navar-2*/
+.nav2 {
+  height: 40px;
+  width: 100%;
+  background-color: #34424d;
+}
+.nav2-box1 {
+  height: 35px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+h5:hover {
+  padding: 8px;
+  border: 0.1px solid white;
+}
+.main-content {
+  margin-top: 1rem;
+  height: 300px;
+  width: 100%;
+  background-image: url("Amazonsite/back-logo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.search:hover {
+  border: 1.5px solid orange;
+}
+/* .shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: rgb(254, 133, 232);
+}
+.box {
+  height: 27rem;
+  width: 23%;
+  background-color: white;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.box-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.box-img {
+  height: 21rem;
+  width: 22rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+/* h2 {
+  padding: 10px;
+}
+p {
+  color: rgb(2, 205, 138);
+  margin-top: 2px;
+} */
+
+.footer-nav1 {
+  height: 50px;
+  width: 100%;
+  background-color: #34424d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-nav2 {
+  height: 400px;
+  width: 100%;
+  background-color: #2f3a49;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.box123 {
+  height: 300px;
+  width: 25%px;
+  margin-left: 100px;
+}
+.footer-nav3 {
+  height: 100px;
+  width: 100%;
+  background-color: #34424d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo123 {
+  background-image: url("footer-photo-amazon.webp");
+  background-size: cover;
+  height: 75px;
+  width: 200px;
+}
+
+/* / CUSTOM STYLING */
+
+.image-gallery {
+  margin-top: 0.1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(254, 133, 232);
+}
+
+.image-container {
+  width: 30%;
+  margin: 10px;
+  margin-top: 2rem;
+}
+
+.image-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image-description {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.responsive-image {
+  width: 100%;
+  height: 22rem;
+  border-radius: 10px;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+  .image-container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-container {
+    width: 100%;
+  }
+  .image-title {
+    font-size: 16px;
+  }
+  .image-description {
+    font-size: 12px;
+  }
+}
